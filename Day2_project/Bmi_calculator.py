@@ -9,14 +9,15 @@
 # by the square of their height (in m):
 
 # 1st input: enter height in meters e.g: 1.65
-height = input()
+height = input("Enter your height in meters: ")
 # 2nd input: enter weight in kilograms e.g: 72
-weight = input()
+weight = input("Enter your weight in km: ")
 # 🚨 Don't change the code above 👆
 
 # Write your code below this line 👇
 my_height = float(height)
-my_weight = int(weight)
+my_weight = float(weight)
 bmi = my_weight / my_height ** 2
 
 my_bmi = int(bmi)
+print("Your bmi is:", my_bmi)

@@ -3,8 +3,8 @@
 # The second input is stored in a variable called b.
 
 # There are two variables, a and b from input
-a = input()
-b = input()
+a = input("a: ")
+b = input("b: ")
 # 🚨 Don't change the code above ☝️
 ####################################
 # Write your code below this line 👇
