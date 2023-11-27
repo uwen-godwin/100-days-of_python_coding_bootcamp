@@ -1,3 +1,5 @@
+# Rock paper scissors Game
+
 import random
 
 rock = '''
@@ -27,14 +29,18 @@ scissors = '''
 ---.__(___)
 '''
 
+# Nested list
 game_images = [rock, paper, scissors]
 
+# Accept user choice of input between 0 - 2
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 print(game_images[user_choice])
 
+# Accept computer choice of input between 0 - 2
 computer_choice = random.randint(0, 2)
 print("Computer chose:")
 print(game_images[computer_choice])
+
 
 if user_choice >= 3 or user_choice < 0: 
   print("You typed an invalid number, you lose!") 
